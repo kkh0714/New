@@ -1,4 +1,4 @@
-numbers = [5, 2, 1, 5, 7, 4]
+numbers = [2, 1, 5, 7, 4]
 numbers2 = numbers.copy()
 numbers.append(10)
 
@@ -6,7 +6,7 @@ numbers.append(10)
 
 # numbers.insert(0, 10)
 
-# numbers.remove(5) #remove() only remove the first object if there are more than one same object
+numbers.remove(5) #remove() only remove the first object if there are more than one same object
 
 # numbers.clear() #clear() doesn't take any value
 
@@ -21,4 +21,4 @@ numbers.append(10)
 # numbers.sort()
 # numbers.reverse()
 
-print(numbers2)
+print(numbers)
